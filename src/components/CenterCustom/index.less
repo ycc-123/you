@@ -1,0 +1,50 @@
+.center-custom-container {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: nowrap;
+	overflow-y: scroll;
+	padding-bottom: 20px;
+	&::-webkit-scrollbar {
+		display:none;
+	}
+	.pagination {
+		position: absolute;
+		right: 10px;
+		bottom: 10px;
+	}
+	.pagination .ant-pagination-item-link{
+		background:rgba(253,116,56,0.3);
+	}
+	.tips {
+		width: 100%;
+	    font-size: 32px;
+	    font-weight: bold;
+	    text-align: center;
+	    color: #999;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translateX(-50%) translateY(-50%);
+	}
+}
+
+.format_modal {
+	background: #ECECEC;
+	.box{
+		padding: 0 15px 15px 15px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		.ant-card {
+			margin-top: 15px;
+		}
+	}
+}
+
+.ant-card{
+	border: 2px solid transparent;
+}
+
+.ant-notification{
+  z-index: 9999!important;
+}

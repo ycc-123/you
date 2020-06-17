@@ -1,0 +1,114 @@
+@primary-color: #FD7438;
+
+@title-bar-height: 80px;
+@weight-output-height: 40px;
+.title-bar { 
+    padding: 0 15px;
+    height: @title-bar-height;
+    line-height: @title-bar-height;
+    background-color: @primary-color;
+    border-bottom: 1px solid #e8e8e8;
+    -webkit-app-region: drag;
+    .common {
+        justify-content: space-between;
+        i {
+            font-size: 16px;
+            cursor: pointer;
+            -webkit-app-region: no-drag;
+            // &:not(:last-child) {
+            //     font-weight: 700;
+            // }
+            // &:hover {
+            //     color: @primary-color;
+            // }
+        }
+    }
+    .win-controller {
+            float: right;
+            -webkit-app-region: no-drag;
+        button {
+          padding: 0 4px !important;
+          font-size: 16px;
+          &:not(:last-child) {
+            margin-right: 5px;
+          }
+        }
+    }
+}
+
+.section1 {
+    img {
+        width: 300px;
+    }
+}
+
+.section2 {
+    .content {
+        .left {
+            margin-right: 20px;
+            .main {
+                display: inline-block;
+                padding: 0 15px;
+                font-size: 16px;
+                border-radius: 4px;
+                height: @weight-output-height;
+                line-height: @weight-output-height;
+                background: #fff;
+                color: @primary-color;
+                .output {
+                    width: 30px;
+                    padding: 0 10px;
+                } 
+            }
+        }
+        .right {
+            button {
+                color: @primary-color;
+            }
+        } 
+    }
+}
+
+.section3 {
+    .cashier{
+        padding-right: 50px;
+        .cashier-icon {
+            font-size: 60px;
+            fill: #fff;
+            color: #fff;
+        }
+        .cashier-name {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            span {
+                font-size: 24px;
+                color: #fff;
+                line-height: 30px;
+            }
+        }
+        
+    }
+    .quit {
+        padding: 0 35px;
+        background-color: transparent;
+        color: #fff;
+        border-color: #fff;
+        border-width: 2px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.handover{
+    span{
+        // margin-right: 20px;
+    }
+}
+.diaobodan{
+    margin-left: 30%;
+}

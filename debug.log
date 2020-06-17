@@ -1,0 +1,4 @@
+[0102/111045.123:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: 操作成功完成。 (0x0)
+[0102/130349.238:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: 操作成功完成。 (0x0)
+[0102/130651.922:ERROR:process_info.cc(359)] UncheckedAllocate
+[0102/133942.949:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\Administrator\AppData\Local\Google\Chrome\User Data\Crashpad\reports\d256db29-3e47-4921-96ce-6233376aa7f6.dmp: 另一个程序正在使用此文件，进程无法访问。 (0x20)
